@@ -1,56 +1,241 @@
 ---
-title: "Introduction"
-description: "Welcome to the new home for your documentation"
+title: "Willkommen bei MinecraftCloud"
+description: "Dein kostenloses Minecraft Server Hosting - Einfach, schnell und für immer gratis"
 ---
 
-## Setting up
+<style>
+:root {
+  --primary-color: #2563eb;
+  --secondary-color: #1d4ed8;
+  --accent-color: #3b82f6;
+  --light-blue: #dbeafe;
+  --dark-blue: #1e40af;
+}
 
-Get your documentation site up and running in minutes.
+.hero-section {
+  background: linear-gradient(135deg, #1e40af 0%, #2563eb 50%, #3b82f6 100%);
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
 
-<Card title="Start here" icon="rocket" horizontal href="/quickstart">
-  Follow our three step quickstart guide.
+.feature-highlight {
+  background: linear-gradient(45deg, #dbeafe 0%, #bfdbfe 100%);
+  border: 2px solid #3b82f6;
+  border-radius: 8px;
+  padding: 1rem;
+}
+</style>
+
+<div class="hero-section">
+  <h2>🎮 Starte deinen Minecraft Server in 60 Sekunden!</h2>
+  <p>Kostenlose Minecraft Server für alle - Keine versteckten Kosten, keine Zeitlimits</p>
+</div>
+
+## 🚀 Schnellstart
+Bringe deinen Minecraft Server in wenigen Klicks online und spiele sofort mit deinen Freunden.
+
+<Card title="Server erstellen" icon="plus" horizontal href="/quickstart" className="feature-highlight">
+  Erstelle deinen kostenlosen Minecraft Server in unter einer Minute - keine Kreditkarte nötig!
 </Card>
 
-## Make it yours
+<Card title="Erste Schritte" icon="play" horizontal href="/getting-started">
+  Alles was du wissen musst, um sofort loszulegen - von der Anmeldung bis zum ersten Login.
+</Card>
 
-Design a docs site that looks great and empowers your users.
+## ⚙️ Server-Verwaltung
+Verwalte deinen Minecraft Server wie ein Profi mit unseren einfachen Tools.
 
 <Columns cols={2}>
-  <Card title="Edit locally" icon="pen-to-square" href="/development">
-    Edit your docs locally and preview them in real time.
+  <Card title="Server-Dashboard" icon="gauge" href="/dashboard">
+    Überwache Performance, Spieler und Server-Status in Echtzeit.
   </Card>
-  <Card title="Customize your site" icon="palette" href="/essentials/settings">
-    Customize the design and colors of your site to match your brand.
+  
+  <Card title="World-Management" icon="globe" href="/worlds">
+    Lade Welten hoch, erstelle Backups und wechsle zwischen verschiedenen Maps.
   </Card>
-  <Card title="Set up navigation" icon="map" href="/essentials/navigation">
-    Organize your docs to help users find what they need and succeed with your product.
+  
+  <Card title="Spieler-Verwaltung" icon="users" href="/players">
+    Verwalte Whitelist, Bans, Operator-Rechte und Spieler-Permissions.
   </Card>
-  <Card title="API documentation" icon="terminal" href="/api-reference/introduction">
-    Auto-generate API documentation from OpenAPI specifications.
+  
+  <Card title="Server-Einstellungen" icon="cog" href="/settings">
+    Konfiguriere Spielmodi, Schwierigkeit, Spawn-Protection und mehr.
   </Card>
 </Columns>
 
-## Create beautiful pages
-
-Everything you need to create world-class documentation.
+## 🔧 Minecraft Versionen & Mods
+Spiele mit der Version deiner Wahl und erweitere dein Spielerlebnis.
 
 <Columns cols={2}>
-  <Card title="Write with MDX" icon="pen-fancy" href="/essentials/markdown">
-    Use MDX to style your docs pages.
+  <Card title="Vanilla Minecraft" icon="cube" href="/versions/vanilla">
+    Unterstützung für alle aktuellen Minecraft-Versionen von 1.16 bis 1.21.
   </Card>
-  <Card title="Code samples" icon="code" href="/essentials/code">
-    Add sample code to demonstrate how to use your product.
+  
+  <Card title="Forge Server" icon="hammer" href="/versions/forge">
+    Installiere Mods mit Minecraft Forge für erweiterte Spielmechaniken.
   </Card>
-  <Card title="Images" icon="image" href="/essentials/images">
-    Display images and other media.
+  
+  <Card title="Paper/Spigot" icon="paper-plane" href="/versions/paper">
+    Optimierte Server-Performance mit Paper oder Spigot für bessere Leistung.
   </Card>
-  <Card title="Reusable snippets" icon="recycle" href="/essentials/reusable-snippets">
-    Write once and reuse across your docs.
+  
+  <Card title="Fabric Mods" icon="puzzle-piece" href="/versions/fabric">
+    Leichtgewichtige Mod-Platform für moderne Minecraft-Versionen.
   </Card>
 </Columns>
 
-## Need inspiration?
+## 🛡️ Server-Sicherheit & Schutz
+Schütze deinen Server vor Griefern und unerwünschten Spielern.
 
-<Card title="See complete examples" icon="stars" href="https://mintlify.com/customers">
-  Browse our showcase of exceptional documentation sites.
+<Columns cols={3}>
+  <Card title="Whitelist System" icon="shield-check" href="/security/whitelist">
+    Erlaube nur vertrauenswürdigen Spielern den Zugang zu deinem Server.
+  </Card>
+  
+  <Card title="Anti-Grief Plugins" icon="shield" href="/security/protection">
+    Schütze Bauwerke mit WorldGuard, GriefPrevention und anderen Tools.
+  </Card>
+  
+  <Card title="Backup & Restore" icon="cloud-arrow-down" href="/security/backups">
+    Automatische Backups deiner Welten - nie wieder Datenverlust befürchten.
+  </Card>
+  
+  <Card title="DDoS-Schutz" icon="shield-alt" href="/security/ddos">
+    Professioneller DDoS-Schutz für unterbrechungsfreies Spielen.
+  </Card>
+  
+  <Card title="Chat-Moderation" icon="comment-slash" href="/security/chat">
+    Filter schlechte Sprache und spam mit integrierten Chat-Tools.
+  </Card>
+  
+  <Card title="Server-Monitoring" icon="chart-line" href="/security/monitoring">
+    Überwache Server-Aktivitäten und erkenne verdächtige Aktionen früh.
+  </Card>
+</Columns>
+
+## 🎨 Plugins & Anpassungen
+Erweitere deinen Server mit tausenden kostenlosen Plugins.
+
+<Columns cols={2}>
+  <Card title="Plugin-Installation" icon="download" href="/plugins/installation">
+    Installiere Plugins mit einem Klick - über 10.000 verfügbare Erweiterungen.
+  </Card>
+  
+  <Card title="Economy-Plugins" icon="coins" href="/plugins/economy">
+    Erstelle eine Server-Wirtschaft mit Shops, Jobs und Belohnungssystemen.
+  </Card>
+  
+  <Card title="Mini-Games" icon="gamepad" href="/plugins/minigames">
+    Füge Spleef, BedWars, SkyWars und andere beliebte Mini-Games hinzu.
+  </Card>
+  
+  <Card title="Rank-Systeme" icon="trophy" href="/plugins/ranks">
+    Motiviere Spieler mit Rängen, Permissions und besonderen Privilegien.
+  </Card>
+</Columns>
+
+## 🌍 Community & Multiplayer
+Baue eine aktive Spieler-Community um deinen Server auf.
+
+<Columns cols={2}>
+  <Card title="Discord Integration" icon="discord" href="/community/discord">
+    Verbinde deinen Server mit Discord für bessere Kommunikation.
+  </Card>
+  
+  <Card title="Website erstellen" icon="globe" href="/community/website">
+    Erstelle eine kostenlose Website für deinen Minecraft Server.
+  </Card>
+  
+  <Card title="Voting-Systeme" icon="heart" href="/community/voting">
+    Lasse Spieler für deinen Server voten und belohne sie dafür.
+  </Card>
+  
+  <Card title="Events & Contests" icon="calendar" href="/community/events">
+    Organisiere Bau-Wettbewerbe und Community-Events.
+  </Card>
+</Columns>
+
+## 📊 Performance & Optimierung
+Hole das Maximum aus deinem kostenlosen Server heraus.
+
+<Columns cols={2}>
+  <Card title="Server-Performance" icon="bolt" href="/optimization/performance">
+    Optimiere deinen Server für flüssiges Gameplay auch bei vielen Spielern.
+  </Card>
+  
+  <Card title="RAM & CPU Monitoring" icon="memory" href="/optimization/resources">
+    Überwache Ressourcen-Verbrauch und optimiere Plugin-Konfigurationen.
+  </Card>
+  
+  <Card title="Lag-Reduktion" icon="timer" href="/optimization/lag">
+    Reduziere Lag durch optimale Einstellungen und Plugin-Management.
+  </Card>
+  
+  <Card title="Uptime Garantie" icon="clock" href="/optimization/uptime">
+    99.5% Uptime-Garantie - dein Server läuft, wenn du spielen willst.
+  </Card>
+</Columns>
+
+## 🆘 Support & Hilfe
+Wir helfen dir bei allen Fragen rund um deinen Minecraft Server.
+
+<Columns cols={2}>
+  <Card title="Häufige Fragen" icon="question-circle" href="/support/faq">
+    Antworten auf die häufigsten Fragen von Server-Setup bis Plugin-Problemen.
+  </Card>
+  
+  <Card title="Discord Support" icon="headset" href="https://discord.gg/minecraftcloud">
+    Schnelle Hilfe von der Community und unserem Support-Team auf Discord.
+  </Card>
+  
+  <Card title="Video-Tutorials" icon="video" href="/support/tutorials">
+    Schritt-für-Schritt Anleitungen für alle wichtigen Server-Features.
+  </Card>
+  
+  <Card title="Ticket-System" icon="ticket" href="/support/tickets">
+    Erstelle Support-Tickets für individuelle Hilfe bei komplexen Problemen.
+  </Card>
+</Columns>
+
+## 🌟 Inspiration & Showcases
+Lass dich von erfolgreichen Servern inspirieren und teile deine Kreationen.
+
+<Card title="Server-Showcase ansehen" icon="stars" href="/showcase">
+  Entdecke beeindruckende Builds und kreative Server-Konzepte unserer Community.
 </Card>
+
+<Card title="Build-Wettbewerbe" icon="trophy" href="/contests">
+  Nimm an monatlichen Bau-Wettbewerben teil und gewinne coole Preise für deinen Server.
+</Card>
+
+---
+
+## 🎯 Los geht's!
+Bereit für dein Minecraft-Abenteuer? Hier sind deine nächsten Schritte:
+
+<div class="feature-highlight">
+
+### 1. **[Kostenlosen Account erstellen](/register)** 
+Registriere dich in 30 Sekunden - keine E-Mail-Bestätigung nötig
+
+### 2. **[Ersten Server erstellen](/create-server)**
+Wähle deine Lieblings-Minecraft-Version und starte sofort
+
+### 3. **[Freunde einladen](/invite-friends)**
+Teile deine Server-Adresse und spielt zusammen
+
+### 4. **[Community beitreten](https://discord.gg/minecraftcloud)**
+Tausche dich mit 50.000+ anderen Minecraft-Spielern aus
+
+</div>
+
+---
+
+<div style="background: linear-gradient(45deg, #1e40af, #3b82f6); color: white; padding: 1.5rem; border-radius: 8px; text-align: center; margin-top: 2rem;">
+  <h3>🎮 100% Kostenlos - Für immer!</h3>
+  <p>Keine versteckten Kosten • Keine Zeitlimits • Keine Werbung im Spiel</p>
+  <p><strong>Über 100.000 zufriedene Spieler vertrauen bereits auf MinecraftCloud</strong></p>
+</div>
