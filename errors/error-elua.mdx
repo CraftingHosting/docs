@@ -1,5 +1,38 @@
 ---
-title: 'New file'
-description: 'Description of your new file.'
+title: Fehlerbehebung – Unrecognized VM option 'ShrinkHeapInSteps'
 ---
 
+## Fehlerbehebung: „Unrecognized VM option 'ShrinkHeapInSteps'“
+
+Wenn beim Start deines Servers die folgenden Meldungen im Log erscheinen, liegt ein Versionskonflikt mit Java vor:
+
+```text
+Error: Could not create the Java Virtual Machine.
+Error: A fatal exception has occurred. Program will exit.
+```
+
+Zusätzlich zeigt das Panel an, dass dein Server abgestürzt ist und mit Exit Code 1 beendet wurde.
+
+## Ursache
+
+Du hast höchstwahrscheinlich alles richtig gemacht, trotzdem kann es dazu kommen, dass solche dinge Passieren!
+
+Dieser Fehler tritt auf, wenn du die **EULA nicht akzeptiert hast**
+
+## Lösung
+
+Öffne das Panel und melde dich an.
+
+Wähle in der Serverübersicht deinen Server aus.
+
+Gehe in der linken Navigationsleiste im Bereich MANAGEMENT auf Version Changer.
+
+Wähle die gewünschte Version (z. B. die aktuelle Forge- oder Vanilla-Version).
+
+Klicke auf Installieren bzw. bestätige deine Auswahl.
+
+<tip> 
+  Nach der Änderung wird der Server automatisch mit einer passenden Java-Version gestartet – danach sollte der Fehler verschwinden und der Server wieder normal laufen. </tip>
+<warning> 
+  Beachte: Beim Wechsel der Version können vorhandene Welten oder Plugins inkompatibel sein. Erstelle vorher unbedingt ein Backup deiner Daten!
+</warning>
