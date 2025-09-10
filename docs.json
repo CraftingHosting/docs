@@ -36,7 +36,7 @@
             "group": "Hilfe & Kontakt",
             "pages": [
               "contact",
-              "errors/error-eula"
+              "fehler/error-eula"
             ]
           }
         ]
