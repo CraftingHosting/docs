@@ -26,12 +26,6 @@
               "basics/upload-world",
               "basics/version-changer"
             ]
-          },
-          {
-            "group": "Hosting-Probleme",
-            "pages": [
-              "errors/error-eula"
-            ]
           }
         ]
       },
@@ -41,7 +35,8 @@
           {
             "group": "Hilfe & Kontakt",
             "pages": [
-              "contact"
+              "contact",
+              "errors/error-eula"
             ]
           }
         ]
