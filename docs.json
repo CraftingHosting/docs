@@ -26,12 +26,6 @@
               "basics/upload-world",
               "basics/version-changer"
             ]
-          },
-          {
-            "group": "Fehlerbehebung",
-            "pages": [
-              "errors/error-eula"
-            ]
           }
         ]
       },
