@@ -26,6 +26,12 @@
               "basics/upload-world",
               "basics/version-changer"
             ]
+          },
+          {
+            "group": "Hosting-Probleme",
+            "pages": [
+              "errors/error-eula"
+            ]
           }
         ]
       },
