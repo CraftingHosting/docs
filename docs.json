@@ -38,6 +38,12 @@
               "contact",
               "errors/eula_fehler"
             ]
+          },
+          {
+            "group": "Fehlerbehebung",
+            "pages": [
+              "errors/eula_fehler"
+            ]
           }
         ]
       }
